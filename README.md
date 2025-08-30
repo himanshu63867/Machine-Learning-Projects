@@ -64,7 +64,23 @@ Each project covers **data preprocessing, model building, evaluation, and insigh
 - Handling Imbalanced Data (SMOTE, Under-sampling, Class weights)  
 - Model Evaluation (Accuracy, Precision, Recall, F1-score, ROC-AUC)  
 - Feature Importance & Explainability  
-- Data Visualization  
+- Data Visualization
+
+ ### 5.  **Predictive Analytics for Identifying Sales & Supply Chain Problems (FMCG)**
+
+**Goal:**  
+Build a machine learning model that predicts potential issues in FMCG sales such as stockouts, delivery delays, and ineffective promotions before they happen.
+
+**Steps Involved:**  
+- Data Preprocessing: Cleaning FMCG sales data (2022–2024), handling missing values, encoding categorical variables, and removing data leakage features.  
+- Feature Engineering: Extracting date-based features (month, day, day-of-week), region, channel, price, and promotions.  
+- Model Building: Training Random Forest / XGBoost classifier to predict "problem" vs "no problem".  
+- Evaluation: Accuracy, F1-score, ROC-AUC, and feature importance analysis.  
+- Insights: Identified which factors (pricing, region, promotions) contribute most to sales/supply chain problems.
+
+**Outcome:**  
+This model serves as an **early warning system** for FMCG companies, helping them proactively address sales risks, optimize promotions, and ensure better product availability.
+
 
 ---
 
